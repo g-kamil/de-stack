@@ -1,2 +1,5 @@
 __pycache__
 .env
+
+# logs file from airflow and spark
+logs
