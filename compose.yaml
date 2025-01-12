@@ -1,0 +1,9 @@
+name: de-stack
+
+include:
+  - path: airflow/compose.yaml
+    project_directory: airflow/
+    env_file: airflow/.env
+  - path: spark/compose.yaml
+    project_directory: spark/
+    env_file: spark/.env
